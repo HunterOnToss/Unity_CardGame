@@ -11,7 +11,7 @@ public class UIButton : MonoBehaviour {
 	private SpriteRenderer _sprite;
 
 	void Start() {
-		SpriteRenderer _sprite = GetComponent<SpriteRenderer> ();
+		_sprite = GetComponent<SpriteRenderer> ();
 	}
 
 	public void OnMouseOver() {
